@@ -1,29 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*   ft_forefeach.h                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/28 14:40:34 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/10/15 19:07:04 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/10/15 19:16:49 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/10/15 19:16:51 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
-
-void ft_is_negative(int n)
+void	ft_foreach(int *tab, int length, void (*f)(int))
 {
-	char *letter;
-	
-    if (n < 0)
-        letter = "N";
-    else 
-        letter = "P";    
-    ft_putchar(letter);
+	int i;
+
+	i = 0;
+	while (i < length)
+	{
+		f(tab[i]);
+		i++;
+	}
 }
-
-/* int main(void)
-{
-	ft_is_negative(-12);
-} */

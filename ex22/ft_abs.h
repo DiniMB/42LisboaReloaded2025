@@ -1,29 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*   ft_abs.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/28 14:40:34 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/10/15 19:07:04 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/10/15 19:11:36 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/10/15 19:11:38 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c);
-
-void ft_is_negative(int n)
-{
-	char *letter;
-	
-    if (n < 0)
-        letter = "N";
-    else 
-        letter = "P";    
-    ft_putchar(letter);
-}
-
-/* int main(void)
-{
-	ft_is_negative(-12);
-} */
+#ifndef FT_ABS_H
+# define FT_ABS_H
+# define ABS(Value) (Value < 0 ? -Value : Value)
+#endif

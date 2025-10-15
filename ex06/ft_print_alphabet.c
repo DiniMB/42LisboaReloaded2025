@@ -6,20 +6,20 @@
 /*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/28 14:34:43 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/28 14:38:07 by dbaltaza         ###   ########.fr       */
+/*   Updated: 2025/10/15 19:03:56 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+void	ft_putchar(char c);
 
 void	ft_print_alphabet(void)
 {
-	char alpha;
+	char	c;
 
-	alpha = 'a';
-	while (alpha <= 'z')
+	c = 'a';
+	while (c <= 'z')
 	{
-		write(1, &alpha, 1);
-		alpha++;
+		ft_putchar(c);
+		++c;
 	}
 }
