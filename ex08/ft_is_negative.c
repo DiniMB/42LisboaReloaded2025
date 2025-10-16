@@ -17,13 +17,8 @@ void	ft_is_negative(int n)
 	char	letter;
 
 	if (n < 0)
-		letter = "N";
+		letter = 'N';
 	else
-		letter = "P";
+		letter = 'P';
 	ft_putchar(letter);
 }
-
-/* int main(void)
-{
-	ft_is_negative(-12);
-} */
