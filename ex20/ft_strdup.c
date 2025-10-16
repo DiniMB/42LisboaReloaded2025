@@ -3,20 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: dbaltaza <dbaltaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 17:57:19 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/23 18:12:39 by dbaltaza         ###   ########.fr       */
+/*   Updated: 2025/10/16 14:55:28 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
 
-char *ft_strdup(char *src)
+char	*ft_strdup(char *src)
 {
-	int i;
-	int j;
-	char *copy_string;
+	int		i;
+	int		j;
+	char	*copy_string;
 
 	i = 0;
 	j = 0;
@@ -30,7 +30,7 @@ char *ft_strdup(char *src)
 	else
 	{
 		i = 0;
-		while (src[i]) 
+		while (src[i])
 		{
 			copy_string[j] = src[i];
 			i++;

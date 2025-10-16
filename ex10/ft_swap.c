@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: dbaltaza <dbaltaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/28 16:22:05 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/09/28 16:23:36 by dbaltaza         ###   ########.fr       */
+/*   Updated: 2025/10/16 14:59:06 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_swap(int *a, int *b)
+void	ft_swap(int *a, int *b)
 {
-	int t;
+	int	t;
 
 	t = *a;
 	*a = *b;

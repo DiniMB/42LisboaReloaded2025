@@ -1,33 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_range.c                                         :+:      :+:    :+:   */
+/*   ft_foreach.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dbaltaza <dbaltaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/24 12:35:42 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/10/16 14:55:49 by dbaltaza         ###   ########.fr       */
+/*   Created: 2025/10/15 19:16:49 by dbaltaza          #+#    #+#             */
+/*   Updated: 2025/10/16 14:56:37 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-
-int	*ft_range(int min, int max)
+void	ft_foreach(int *tab, int length, void (*f)(int))
 {
 	int	i;
-	int	*array;
 
-	if (min >= max)
-		return (NULL);
-	array = malloc(sizeof(int) * (max - min));
-	if (array == NULL)
-		return (NULL);
 	i = 0;
-	while (min < max)
+	while (i < length)
 	{
-		array[i] = min;
-		min++;
+		f(tab[i]);
 		i++;
 	}
-	return (array);
 }

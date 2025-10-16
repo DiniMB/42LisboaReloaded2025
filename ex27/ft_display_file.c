@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_display_file.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dbaltaza <dbaltaza@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: dbaltaza <dbaltaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/15 19:18:22 by dbaltaza          #+#    #+#             */
-/*   Updated: 2025/10/15 19:23:36 by dbaltaza         ###   ########.fr       */
+/*   Updated: 2025/10/16 14:59:55 by dbaltaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,9 @@ void	ft_putchar(char c)
 
 void	ft_putstr(char *str)
 {
-	int i = 0;
+	int	i;
+
+	i = 0;
 	while (str[i])
 		ft_putchar(str[i++]);
 }
@@ -31,10 +33,11 @@ int	ft_disp_file(char *filename)
 	int		ret;
 	char	buff[1024];
 
+	ret = 1;
 	fd = open(filename, O_RDONLY);
 	if (fd == -1)
 		return (-1);
-	while ((ret = read(fd, buff, 1024)) > 0)
+	while ((ret == read(fd, buff, 1024)) > 0)
 		write(1, buff, ret);
 	close(fd);
 	return (0);

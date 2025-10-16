@@ -16,10 +16,10 @@ void	ft_putstr(char *src)
 {
 	while (*src)
 	{
-		ft_putchar(src);
+		ft_putchar(*src);
 		src++;
 	}
-	ft_putchar("\n");
+	ft_putchar('\n');
 }
 
 int	main(int agrc, char **argv)
@@ -27,7 +27,8 @@ int	main(int agrc, char **argv)
 	int	i;
 
 	i = 1;
-	while (argv[i] && agrc)
+	(void)agrc;
+	while (argv[i])
 	{
 		ft_putstr(argv[i]);
 		i++;
