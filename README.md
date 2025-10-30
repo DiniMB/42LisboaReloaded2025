@@ -1,4 +1,4 @@
-<div align="center"># Piscine Reloaded 42 Lisboa 🔄
+<h1 align="center"> Piscine Reloaded 42 Lisboa 🏊‍♂️</h1>
 
 ```
         /* ************************************************************************** */
