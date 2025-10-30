@@ -14,12 +14,6 @@
         /* ************************************************************************** */
 ```
 
-## ⚠️ DISCLAIMER
-**YOU ARE HERE TO LEARN, DON'T COPY**  
-Podes ser apanhado pelo BOCAL ☠️
-
----
-
 ## 📋 Sobre o Projeto
 
 A **Piscine Reloaded** é uma revisão dos conceitos fundamentais da C Piscine. É o primeiro projeto do Common Core e prepara-te para a **Libft**.
@@ -36,15 +30,15 @@ A **Piscine Reloaded** é uma revisão dos conceitos fundamentais da C Piscine. 
 
 | Exercise | Descrição | Status |
 |----------|-----------|--------|
-| ex00-ex05 | Shell básico | ⏳ |
-| ex06-ex11 | Manipulação de ficheiros | ⏳ |
-| ex12-ex17 | Funções básicas em C | ⏳ |
-| ex18-ex21 | Ponteiros e arrays | ⏳ |
-| ex22-ex24 | Strings avançadas | ⏳ |
-| ex25-ex26 | Funções com listas | ⏳ |
-| ex27 | ft_display_file + Makefile | ⏳ |
+| ex00-ex05 | Shell básico | ✅ |
+| ex06-ex11 | Manipulação de ficheiros | ✅ |
+| ex12-ex17 | Funções básicas em C | ✅ |
+| ex18-ex21 | Ponteiros e arrays | ✅ |
+| ex22-ex24 | Strings avançadas | ✅ |
+| ex25-ex26 | Funções com listas | ✅ |
+| ex27 | ft_display_file + Makefile | ✅ |
 
-**Nota Final:** --/100
+**Nota Final:** 100/100
 
 ---
 
