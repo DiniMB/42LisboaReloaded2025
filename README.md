@@ -1,4 +1,4 @@
-<h1 align="center"> Piscine Reloaded 42 Lisboa 🏊‍♂️</h1>
+<h1 align="center">Piscine Reloaded (42 Lisbon) - September 2025 🏊‍♂️</h1>
 
 ```
         /* ************************************************************************** */
@@ -14,55 +14,63 @@
         /* ************************************************************************** */
 ```
 
-## 📋 Sobre o Projeto
+---
 
-A **Piscine Reloaded** é uma revisão dos conceitos fundamentais da C Piscine. É o primeiro projeto do Common Core e prepara-te para a **Libft**.
+## 📋 About the Project
 
-**Duração:** ~1 semana  
-**Linguagem:** C e Shell  
-**Avaliação:** Moulinette + 2 peer evaluations
+**Piscine Reloaded** is a comprehensive review of the fundamental concepts from the C Piscine.  
+It’s the **first project of the Common Core**, designed to prepare you for **Libft** and all future C modules.
+
+**Duration:** ~1 week  
+**Languages:** C and Shell  
+**Evaluation:** Moulinette + 2 peer evaluations
 
 ---
 
-## 📊 Progresso
+## 📊 Progress
 
 <div align="center">
 
-| Exercise | Descrição | Status |
-|----------|-----------|--------|
-| ex00-ex05 | Shell básico | ✅ |
-| ex06-ex11 | Manipulação de ficheiros | ✅ |
-| ex12-ex17 | Funções básicas em C | ✅ |
-| ex18-ex21 | Ponteiros e arrays | ✅ |
-| ex22-ex24 | Strings avançadas | ✅ |
-| ex25-ex26 | Funções com listas | ✅ |
-| ex27 | ft_display_file + Makefile | ✅ |
+| Exercise | Description | Status |
+|-----------|--------------|--------|
+| ex00–ex05 | Basic Shell exercises | ✅ |
+| ex06–ex11 | File manipulation | ✅ |
+| ex12–ex17 | Basic C functions | ✅ |
+| ex18–ex21 | Pointers and arrays | ✅ |
+| ex22–ex24 | Advanced string handling | ✅ |
+| ex25–ex26 | Functions with linked lists | ✅ |
+| ex27 | `ft_display_file` + Makefile | ✅ |
 
-**Nota Final:** 100/100
+**Final Grade:** 💯 / 100  
 
----
-
-## 🎯 Conceitos Cobertos
-
-- Shell scripting e permissões
-- Funções básicas de manipulação de strings
-- Ponteiros e gestão de memória
-- Listas encadeadas
-- Makefiles
-- Norminette e boas práticas
+</div>
 
 ---
 
-## 💡 Dicas
+## 🎯 Key Concepts
 
-✅ **Norminette obrigatória** em todos os exercícios  
-✅ Lê bem o subject antes de começar  
-✅ Testa com diferentes inputs  
-✅ Revê os erros da Piscine  
-✅ O ex27 requer Makefile correto
+- Shell scripting and permissions  
+- String manipulation in C  
+- Pointers and memory management  
+- Linked lists  
+- Makefiles  
+- Norminette compliance and good coding practices  
 
 ---
 
-**Made by:** dbaltaza  
-**Campus:** 42 Lisboa  
-**Year:** 2025
+## 💡 Tips for Success
+
+✅ Always follow **Norminette** rules  
+✅ Read the **subject** carefully before coding  
+✅ Test with multiple input cases  
+✅ Review your previous Piscine mistakes  
+✅ Ensure your **Makefile** is correct (especially for `ex27`)  
+
+---
+
+<div align="center">
+
+_This project was completed by [dbaltaza](https://instagram.com/dini.mb) as part of the **42 Lisbon Common Core – September 2025**._
+
+</div>
+
